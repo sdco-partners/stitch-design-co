@@ -1,0 +1,65 @@
+# ignore everything in root except for content
+!content/
+
+# ignore all files starting with .
+.*
+
+# DON'T ignore tooling config files
+!.gitignore
+!.editorconfig
+!readme.md
+
+# ignore all files starting with ~
+~*
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+.Spotlight-V100
+.Trashes
+.DS_Store
+.DS_Store?
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workshop
+*.komodoproject
+
+# ignore log files
+*.log
+*.sql
+*.sqlite
+.sass-cache
+error_log
+
+# ignore everything inside content execept for Themes and Plugins
+content/*
+!content/mu-plugins/
+!content/plugins/
+!content/themes/
+
+# ignore YeoPress configuration file since it contains password information
+.yeopress
+
+# ignore dependencies
+bower_components/
+node_modules/
+
+# ignore WP config
+local-config.php
+
+# ignore Vagrant ?
+.vagrant
+
+# ignore WordPress + popular plugin generated — adapted from:
+# https://github.com/github/gitignore/blob/master/WordPress.gitignore
+sitemap.xml
+sitemap.xml.gz
+content/advanced-cache.php
+content/backup-db/
+content/backups/
+content/blogs.dir/
+content/cache/
+content/uploads/
+content/upgrade/
+content/wp-cache-config.php

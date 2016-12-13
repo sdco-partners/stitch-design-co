@@ -1,0 +1,12 @@
+scheme: ftp
+host: stitchdesignco.com
+username: phil@stitchdesignco.com
+password: d@shb0@rd
+path: /
+passive: true
+
+exclude:
+    - .gitignore
+    - dandelion.yml
+    - html/
+    - staging.yml
